@@ -1,0 +1,28 @@
+#opcionesPago
+{
+        background-color: #6c757d!important;
+            border-radius: 5px;
+}
+
+#container{
+     background:#F1F3F4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+}
+
+.btn
+{
+    float: right;
+    margin-left: 3px;
+}
+
+.card
+{
+        min-width: 70%;
+}
+
+form{
+    padding: 15px;
+}

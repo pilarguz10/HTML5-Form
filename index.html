@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+     <script src="https://kit.fontawesome.com/be6d2b291d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id ="container">
+
+   
+
+    <div class="card">
+        <!-- Cabecera de la tarjeta-->
+        <div class="card-header">
+            <h1> Payment form example</h1>
+        </div>
+
+       
+
+        <!--Formulario-->
+        <form>
+             <div class="alert alert-danger form-group col-md-12" role="alert"> Some fields are missing</div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputEmail4">Card #</label>
+                    <input type="number" class="form-control" id="inputEmail4" placeholder="XXXXXXXXXXXX">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputPassword4">cvc #</label>
+                    <input type="number" class="form-control" id="inputPassword4" placeholder="0000">
+                </div>
+                <div class="form-group col-md-4">
+                    <label  for="inlineFormInputGroup">Amount</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text">$</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                    </div>
+                </div>
+                   
+                </div>
+       
+         
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">First Name</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+
+                 <div class="form-group col-md-6">
+                    <label for="inputCity">Last Name</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+            </div>
+
+             <div class="form-row">
+                 <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>      
+                  <div class="form-group col-md-3">
+                    <label for="inputCity">State</label>
+                     <select id="inputState" class="form-control">
+                        <option selected>Pick a state</option>
+                        <option>...</option>
+                    </select>
+                  </div>              
+                    <div class="form-group col-md-3">
+                        <label for="inputCity">Postal Code</label>
+                           <input type="number" class="form-control" id="inputCity">
+                    </div>
+
+             </div>
+
+               <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">We accept</label>
+                <div class="col-md-7" id ="opcionesPago">
+                             <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline1" checked name="customRadioInline1" class="custom-control-input">
+                                     <label class="custom-control-label" for="customRadioInline1"><i class="fab fa-sm fa-cc-mastercard"></i> </label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                     <label class="custom-control-label" for="customRadioInline2"><i class="fab fa-sm fa-cc-visa"></i></label>
+                            </div> 
+                             <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                     <label class="custom-control-label" for="customRadioInline2"><i class="fab fa-sm fa-cc-diners-club"></i></label>
+                            </div> 
+                             <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                     <label class="custom-control-label" for="customRadioInline2"><i class="fab fa-sm fa-cc-amex"></i></label>
+                            </div> 
+                     </div>
+                  </div>
+
+                   <div class="form-group col-md-6">
+                        <label for="inputCity">Message</label>
+                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                   </div>
+
+
+               </div>
+
+
+
+
+
+               
+        </form>
+            <div class="card-footer text-muted">
+                
+                <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
+                <button type="button" class="btn btn-primary btn-sm">Send</button>
+            </div>
+    </div>
+    <!--Fin de la tarjeta-->
+
+    
+</div>  <!--Fin del contenedor-->
+</body>
+
+</html>
